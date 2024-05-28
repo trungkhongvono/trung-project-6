@@ -102,6 +102,10 @@ body {
 .hero-list-list {
     position: relative;
 }
+.hero-inner {
+    display: flex;
+    justify-content: space-between;
+}
 .hero-left-decor {
     position: absolute;
     top: -80px;
@@ -113,7 +117,7 @@ body {
 }
 .hero-right-heading {
     width: 500px;
-    height: 164px;
+
     color: #080415;
 
     font-size: 8rem;
@@ -175,6 +179,10 @@ body {
 .project {
     margin-top: 200px;
 }
+.project-top {
+    display: flex;
+    align-items: center;
+}
 .project-top-title {
     color: #080415;
     width: 253px;
@@ -199,6 +207,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 35px;
     row-gap: 36px;
+    margin-left: 105px;
 }
 .project-top-item {
     display: flex;
@@ -262,6 +271,8 @@ body {
 }
 .project-list {
     margin-top: 60px;
+    display: flex;
+    align-items: center;
 }
 .project-list-title {
     margin-top: 22px;
@@ -299,6 +310,9 @@ body {
 .work-top {
     margin-top: 140px;
     padding-top: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .work-top-title {
     color: #fff;
@@ -319,7 +333,9 @@ body {
 }
 .work-list {
     margin-top: 70px;
-    row-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
 
 .work-item {
@@ -831,12 +847,14 @@ body {
 .footer-list {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 18px;
     margin-bottom: 30px;
+    padding: 0 0 0 103px;
 }
 .footer-list-license {
-    margin-left: 77px;
     color: #525771;
+    width: 337px;
 
     font-size: 1.8rem;
     font-weight: 400;
@@ -849,7 +867,7 @@ body {
 }
 .fooer-list-title {
     color: #525771;
-    margin-left: 442px;
+    width: 108px;
     letter-spacing: -0.54px;
     color: #525771;
     font-size: 1.8rem;
@@ -862,6 +880,7 @@ body {
 }
 .fooer-list-desc {
     color: #525771;
+    width: 158px;
     margin-left: 13px;
 
     letter-spacing: -0.54px;

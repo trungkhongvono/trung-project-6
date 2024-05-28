@@ -89,6 +89,14 @@
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/grid.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <div class="header">
@@ -107,23 +115,28 @@
                         >hi@arif.interactive</a
                     >
                 </div>
-                <img src="./assets/img/boys.svg" alt="" class="header-theboy" />
-                <ul class="nav">
-                    <li href="#!" class="nav-desc">Projects</li>
-                    <li href="#!" class="nav-desc">Journey</li>
-                    <li href="#!" class="nav-desc">Service</li>
-                    <li href="#!" class="nav-desc">Contact</li>
-                </ul>
+                <a href="#"
+                    ><img
+                        src="./assets/img/boys.svg"
+                        alt=""
+                        class="header-theboy"
+                /></a>
+                <div class="nav">
+                    <a href="#project" class="nav-desc">Projects</a>
+                    <a href="#Journey" class="nav-desc">Journey</a>
+                    <a href="#service" class="nav-desc">Service</a>
+                    <a href="#contact" class="nav-desc">Contact</a>
+                </div>
             </div>
         </div>
-        <main style="height: 4000px">
+        <main>
             <div class="hero">
                 <div class="container">
                     <div class="hero-inner row">
                         <div class="hero-left col-lg-5">
-                            <div class="hero-list-list">
+                            <div class="hero-list-list" data-aos="fade-right">
                                 <img
-                                    src="./assets/img/hero-left-young-man.svg"
+                                    src="./assets/img/hero-left-young-man.svg "
                                     alt=""
                                 />
                                 <img
@@ -133,8 +146,13 @@
                                 />
                             </div>
                         </div>
-                        <div class="hero-right col-lg-5 offset-2">
-                            <h1 class="hero-right-heading">
+                        <div
+                            class="hero-right col-lg-5 offset-2"
+                            data-aos="fade-left"
+                        >
+                            <h1
+                                class="hero-right-heading animate__animated animate__bounce"
+                            >
                                 An Interactive Designer
                             </h1>
                             <p class="hero-right-desc">
@@ -209,9 +227,9 @@
                 </div>
             </div>
             <!-- project -->
-            <div class="project">
+            <div class="project" id="project">
                 <div class="container">
-                    <div class="row project-top">
+                    <div class="row project-top" data-aos="zoom-in">
                         <div class="col-lg-4">
                             <h2 class="project-top-title">
                                 Meet my recent clients
@@ -306,7 +324,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="project-body">
+                    <div class="project-body" data-aos="zoom-in-up">
                         <h2 class="project-body-title">Specialities</h2>
                         <p class="project-body-desc">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -314,7 +332,7 @@
                             turpis.
                         </p>
                     </div>
-                    <div class="project-list">
+                    <div class="project-list" data-aos="zoom-in-up">
                         <div class="row row-cols-lg-3">
                             <div class="dell-biet">
                                 <div class="project-item-01">
@@ -339,7 +357,7 @@
                                 <div class="project-item-02">
                                     <div class="project-item-wrap">
                                         <img
-                                            src="./assets/img/pen.svg"
+                                            src="./assets/img/pen (3).svg"
                                             alt=""
                                         />
                                     </div>
@@ -377,6 +395,767 @@
                     </div>
                 </div>
             </div>
+            <!-- work -->
+            <div class="work" id="Journey">
+                <div class="container">
+                    <div class="work-top row">
+                        <div class="col-lg-5">
+                            <h2 class="work-top-title" data-aos="fade-right">
+                                Take a look at my recent projects
+                            </h2>
+                        </div>
+                        <div class="col-lg-4 offset-1" data-aos="zoom-in">
+                            <p class="work-top-desc">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. In urna, non nisl tincidunt ut
+                                elementum turpis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="work-list row row-cols-lg-2">
+                        <div class="col">
+                            <div
+                                class="work-item work-1"
+                                data-aos="fade-right"
+                                data-aos-easing="linear"
+                                data-aos-duration="750"
+                            >
+                                <div class="work-item-son">
+                                    <div class="work-item-heading">
+                                        Wally Website
+                                    </div>
+                                    <div class="work-item-desc">
+                                        Lorem ipsum dolor amet, consectetur
+                                        adipiscing st elit.
+                                    </div>
+                                    <div class="work-item-title">
+                                        Case Study
+                                    </div>
+                                </div>
+                                <div class="work-item-img">
+                                    <img
+                                        src="./assets/img/work-item-01 (1).svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="work-list-icon">
+                                    <img
+                                        src="./assets/img/work-icon.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="work-item work-2"
+                                data-aos="fade-left"
+                                data-aos-easing="linear"
+                                data-aos-duration="750"
+                            >
+                                <div class="work-item-son">
+                                    <div class="work-item-heading">
+                                        Banking App
+                                    </div>
+                                    <div class="work-item-desc">
+                                        Lorem ipsum dolor amet, consectetur
+                                        adipiscing st elit.
+                                    </div>
+                                    <div class="work-item-title">
+                                        Case Study
+                                    </div>
+                                </div>
+                                <div class="work-item-img">
+                                    <img
+                                        src="./assets/img/work-item-01 (2).svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="work-list-icon">
+                                    <img
+                                        src="./assets/img/work-icon.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="work-item work-3"
+                                data-aos="fade-right"
+                                data-aos-easing="linear"
+                                data-aos-duration="750"
+                            >
+                                <div class="work-item-son">
+                                    <div class="work-item-heading">Web App</div>
+                                    <div class="work-item-desc">
+                                        Lorem ipsum dolor amet, consectetur
+                                        adipiscing st elit.
+                                    </div>
+                                    <div class="work-item-title">
+                                        Case Study
+                                    </div>
+                                </div>
+                                <div class="work-item-img">
+                                    <img
+                                        src="./assets/img/work-item-01 (3).svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="work-list-icon">
+                                    <img
+                                        src="./assets/img/work-icon.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="work-item work-4"
+                                data-aos="fade-left"
+                                data-aos-easing="linear"
+                                data-aos-duration="750"
+                            >
+                                <div class="work-item-son">
+                                    <div class="work-item-heading">
+                                        Oculus Website
+                                    </div>
+                                    <div class="work-item-desc">
+                                        Lorem ipsum dolor amet, consectetur
+                                        adipiscing st elit.
+                                    </div>
+                                    <div class="work-item-title">
+                                        Case Study
+                                    </div>
+                                </div>
+                                <div class="work-item-img">
+                                    <img
+                                        src="./assets/img/work-item-01 (4).svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="work-list-icon">
+                                    <img
+                                        src="./assets/img/work-icon.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="work-btn"> All Projects </a>
+                </div>
+            </div>
+            <!-- service -->
+            <div class="service" id="service">
+                <div class="container">
+                    <div class="service-top">
+                        <div
+                            class="service-top-title-hand animate__animated animate__bounce wow"
+                        >
+                            <h2 class="service-top-title">Hey,,,,It’s Arif</h2>
+                            <img
+                                src="./assets/img/hand.svg"
+                                alt=""
+                                class="service-top-hand"
+                            />
+                        </div>
+                        <p class="service-top-heading">Interactive Designer</p>
+                        <p class="service-top-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="946"
+                            height="2"
+                            viewBox="0 0 946 2"
+                            fill="none"
+                            class="service-top-path"
+                        >
+                            <path
+                                opacity="0.2"
+                                d="M0 1L946 1.00007"
+                                stroke="#080415"
+                            />
+                        </svg>
+                        <ul
+                            class="service-top-list"
+                            data-aos="fade-up"
+                            data-aos-easing="linear"
+                            data-aos-duration="750"
+                        >
+                            <li class="service-top-item">
+                                <h3 class="service-list-number">08+</h3>
+                                <p class="service-list-title">
+                                    Years Experience
+                                </p>
+                            </li>
+                            <li class="service-top-item">
+                                <h3 class="service-list-number">21+</h3>
+                                <p class="service-list-title">
+                                    Features & Awards
+                                </p>
+                            </li>
+                            <li class="service-top-item">
+                                <h3 class="service-list-number">97%</h3>
+                                <p class="service-list-title">Clients Rating</p>
+                            </li>
+                        </ul>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="946"
+                            height="2"
+                            viewBox="0 0 946 2"
+                            fill="none"
+                            class="service-top-path"
+                        >
+                            <path
+                                opacity="0.2"
+                                d="M0 1L946 1.00007"
+                                stroke="#080415"
+                            />
+                        </svg>
+                        <div
+                            class="service-top-video-wrap"
+                            data-aos="zoom-in-up"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500"
+                        >
+                            <video
+                                src="./assets/img/gay.mp4"
+                                controls
+                                class="service-top-video"
+                                poster="./assets/img/sad-gojo-satoru-ge11u23sui7b82sm.jpg"
+                            ></video>
+                            <div class="service-top-wrap">
+                                <img src="./assets/img/hay.svg" alt="" />
+                            </div>
+                            <p class="service-top-desc-video">Intro Video</p>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <h2 class="service-body-heading">What people says</h2>
+                        <p class="service-body-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <div class="service-body-list">
+                            <div class="service-body-item wow">
+                                <h3 class="service-body-list-desc">
+                                    “Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa.”
+                                </h3>
+                                <div class="service-body-name-avatar">
+                                    <img
+                                        src="./assets/img/avatar.svg"
+                                        alt=""
+                                        class="service-body-avatar"
+                                    />
+                                    <p class="service-body-name">Joe Elia</p>
+                                </div>
+                                <div class="service-body-job">
+                                    User Interface Design at PCL Lab
+                                </div>
+                            </div>
+                            <div class="service-body-item wow">
+                                <h3 class="service-body-list-desc">
+                                    “Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa.”
+                                </h3>
+                                <div class="service-body-name-avatar">
+                                    <img
+                                        src="./assets/img/avatar.svg"
+                                        alt=""
+                                        class="service-body-avatar"
+                                    />
+                                    <p class="service-body-name">Joe Elia</p>
+                                </div>
+                                <div class="service-body-job">
+                                    User Interface Design at PCL Lab
+                                </div>
+                            </div>
+                            <div class="service-body-item">
+                                <h3 class="service-body-list-desc">
+                                    “Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa.”
+                                </h3>
+                                <div class="service-body-name-avatar">
+                                    <img
+                                        src="./assets/img/avatar.svg"
+                                        alt=""
+                                        class="service-body-avatar"
+                                    />
+                                    <p class="service-body-name">Joe Elia</p>
+                                </div>
+                                <div class="service-body-job">
+                                    User Interface Design at PCL Lab
+                                </div>
+                            </div>
+                            <div class="service-body-item">
+                                <h3 class="service-body-list-desc">
+                                    “Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa.”
+                                </h3>
+                                <div class="service-body-name-avatar">
+                                    <img
+                                        src="./assets/img/avatar.svg"
+                                        alt=""
+                                        class="service-body-avatar"
+                                    />
+                                    <p class="service-body-name">Joe Elia</p>
+                                </div>
+                                <div class="service-body-job">
+                                    User Interface Design at PCL Lab
+                                </div>
+                            </div>
+                            <div class="service-body-item">
+                                <h3 class="service-body-list-desc">
+                                    “Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa.”
+                                </h3>
+                                <div class="service-body-name-avatar">
+                                    <img
+                                        src="./assets/img/avatar.svg"
+                                        alt=""
+                                        class="service-body-avatar"
+                                    />
+                                    <p class="service-body-name">Joe Elia</p>
+                                </div>
+                                <div class="service-body-job">
+                                    User Interface Design at PCL Lab
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-body-dot">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="144"
+                                height="20"
+                                viewBox="0 0 144 20"
+                                fill="none"
+                            >
+                                <circle
+                                    opacity="0.2"
+                                    cx="39"
+                                    cy="10"
+                                    r="8"
+                                    fill="#080415"
+                                />
+                                <circle
+                                    opacity="0.2"
+                                    cx="8"
+                                    cy="10"
+                                    r="8"
+                                    fill="#080415"
+                                />
+                                <circle
+                                    cx="72"
+                                    cy="10"
+                                    r="9.5"
+                                    stroke="#5D3BEE"
+                                />
+                                <circle cx="72" cy="10" r="6" fill="#5D3BEE" />
+                                <circle
+                                    opacity="0.2"
+                                    cx="105"
+                                    cy="10"
+                                    r="8"
+                                    fill="#080415"
+                                />
+                                <circle
+                                    opacity="0.2"
+                                    cx="136"
+                                    cy="10"
+                                    r="8"
+                                    fill="#080415"
+                                />
+                            </svg>
+                        </div>
+                        <img
+                            src="./assets/img/trai.svg"
+                            alt=""
+                            class="service-body-trai"
+                        />
+                        <img
+                            src="./assets/img/phai.svg"
+                            alt=""
+                            class="service-body-phai"
+                        />
+                    </div>
+                </div>
+            </div>
+            <!-- faq -->
+            <div class="faq">
+                <div class="container">
+                    <div class="fag-heading" data-aos="zoom-in">
+                        A few questions clients normally ask me
+                    </div>
+                    <div class="fag-list">
+                        <div class="fag-item">
+                            <input
+                                type="checkbox"
+                                id="gay1"
+                                hidden
+                                class="fag-item-checked"
+                            />
+                            <div class="fag-item-wrap">
+                                <h3 class="fag-item-tile">
+                                    What is your hourly rate?
+                                </h3>
+                                <p class="fag-item-desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
+                            <div class="faq-item__button">
+                                <label for="gay1">
+                                    <img
+                                        src="./assets/img/tru (2).svg"
+                                        alt=""
+                                        class="fag-item-cong"
+                                    />
+                                    <img
+                                        src="./assets/img/cong (2).svg"
+                                        alt=""
+                                        class="fag-item-tru"
+                                        hidden
+                                    />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="fag-item">
+                            <input
+                                type="checkbox"
+                                id="gay2"
+                                hidden
+                                class="fag-item-checked"
+                            />
+                            <div class="fag-item-wrap">
+                                <h3 class="fag-item-tile">
+                                    What is your hourly rate?
+                                </h3>
+                                <p class="fag-item-desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
+                            <div class="faq-item__button">
+                                <label for="gay2">
+                                    <img
+                                        src="./assets/img/tru (2).svg"
+                                        alt=""
+                                        class="fag-item-cong"
+                                    />
+                                    <img
+                                        src="./assets/img/cong (2).svg"
+                                        alt=""
+                                        class="fag-item-tru"
+                                        hidden
+                                    />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="fag-item">
+                            <input
+                                type="checkbox"
+                                id="gay3"
+                                hidden
+                                class="fag-item-checked"
+                            />
+                            <div class="fag-item-wrap">
+                                <h3 class="fag-item-tile">
+                                    What is your hourly rate?
+                                </h3>
+                                <p class="fag-item-desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
+                            <div class="faq-item__button">
+                                <label for="gay3">
+                                    <img
+                                        src="./assets/img/tru (2).svg"
+                                        alt=""
+                                        class="fag-item-cong"
+                                    />
+                                    <img
+                                        src="./assets/img/cong (2).svg"
+                                        alt=""
+                                        class="fag-item-tru"
+                                        hidden
+                                    />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="fag-item">
+                            <input
+                                type="checkbox"
+                                id="gay4"
+                                hidden
+                                class="fag-item-checked"
+                            />
+                            <div class="fag-item-wrap">
+                                <h3 class="fag-item-tile">
+                                    What is your hourly rate?
+                                </h3>
+                                <p class="fag-item-desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
+                            <div class="faq-item__button">
+                                <label for="gay4">
+                                    <img
+                                        src="./assets/img/tru (2).svg"
+                                        alt=""
+                                        class="fag-item-cong"
+                                    />
+                                    <img
+                                        src="./assets/img/cong (2).svg"
+                                        alt=""
+                                        class="fag-item-tru"
+                                        hidden
+                                    />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="fag-item">
+                            <input
+                                type="checkbox"
+                                id="gay5"
+                                hidden
+                                class="fag-item-checked"
+                            />
+                            <div class="fag-item-wrap">
+                                <h3 class="fag-item-tile">
+                                    What is your hourly rate?
+                                </h3>
+                                <p class="fag-item-desc">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                            </div>
+                            <div class="faq-item__button">
+                                <label for="gay5">
+                                    <img
+                                        src="./assets/img/tru (2).svg"
+                                        alt=""
+                                        class="fag-item-cong"
+                                    />
+                                    <img
+                                        src="./assets/img/cong (2).svg"
+                                        alt=""
+                                        class="fag-item-tru"
+                                        hidden
+                                    />
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact -->
+            <div class="contact" id="contact">
+                <div class="container">
+                    <div class="contact-top">
+                        <h2 class="contact-top-heading">My atmosphere</h2>
+                        <p class="contact-top-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <a
+                            href="mailto:@interaction_arif"
+                            class="contact-top-email"
+                            >@interaction_arif</a
+                        >
+                    </div>
+                    <div class="contact-body" data-aos="zoom-out">
+                        <div class="contact-item-wrap">
+                            <img
+                                src="./assets/img/david lid 1.jpg"
+                                alt=""
+                                class="contact-item"
+                            />
+                        </div>
+                        <div class="contact-item-wrap">
+                            <img
+                                src="./assets/img/dalid 2.jpg"
+                                alt=""
+                                class="contact-item"
+                            />
+                        </div>
+                        <div class="contact-item-wrap">
+                            <img
+                                src="./assets/img/david lid 3.jpg"
+                                alt=""
+                                class="contact-item"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cta">
+                <div class="container fifai">
+                    <div class="cta-wrap">
+                        <img
+                            src="./assets/img/cta-fun.svg"
+                            alt=""
+                            class="cta-fun"
+                        />
+                        <h2 class="cta-heading">Got a project? Let’s talk</h2>
+                        <p class="cta-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <a href="#!" class="cta-btn">Book a Call</a>
+                        <img
+                            src="./assets/img/cta-giua.svg"
+                            alt=""
+                            class="cta-giua"
+                        />
+                        <img
+                            src="./assets/img/cta-left.svg"
+                            alt=""
+                            class="cta-left"
+                        />
+                        <img
+                            src="./assets/img/cta-right.svg"
+                            alt=""
+                            class="cta-right"
+                        />
+                    </div>
+                </div>
+            </div>
         </main>
+        <footer class="footer">
+            <div class="header-fixed">
+                <div class="header-email">
+                    <div class="header-wrap">
+                        <img
+                            src="./assets/img/email.svg"
+                            alt=""
+                            class="header-letters"
+                        />
+                    </div>
+                    <a
+                        href="mailto:hi@arif.interactive"
+                        class="header-the-email"
+                        >hi@arif.interactive</a
+                    >
+                </div>
+                <a href="#"
+                    ><img
+                        src="./assets/img/boys.svg"
+                        alt=""
+                        class="header-theboy"
+                /></a>
+                <ul class="nav">
+                    <li href="#!" class="nav-desc">Projects</li>
+                    <li href="#!" class="nav-desc">Journey</li>
+                    <li href="#!" class="nav-desc">Service</li>
+                    <li href="#!" class="nav-desc">Contact</li>
+                </ul>
+            </div>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="100%"
+                height="2"
+                viewBox="0 0 1429 2"
+                fill="none"
+            >
+                <path opacity="0.2" d="M0 1H1429" stroke="#0C0720" />
+            </svg>
+            <div class="footer-list">
+                <div class="footer-list-license">
+                    ©interactiveArif 2021. All rights reserved.
+                </div>
+                <div class="footer-gruop">
+                    <h3 class="fooer-list-title">Privacy Policy</h3>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="2"
+                        height="14"
+                        viewBox="0 0 2 14"
+                        fill="none"
+                        class="fooer-list-svg"
+                    >
+                        <path
+                            opacity="0.6"
+                            d="M1 0L0.999999 14"
+                            stroke="#525771"
+                        />
+                    </svg>
+                    <p class="fooer-list-desc">Terms of Conditions</p>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            document
+                .querySelector(".service-top-wrap")
+                .addEventListener("click", function () {
+                    var video = document.querySelector(".service-top-video");
+                    var desc = document.querySelector(
+                        ".service-top-desc-video"
+                    );
+                    var wrap = document.querySelector(".service-top-wrap");
+
+                    video.play();
+                    desc.style.display = "none";
+                    wrap.style.display = "none";
+                });
+
+            document
+                .querySelector(".service-top-video")
+                .addEventListener("ended", function () {
+                    var desc = document.querySelector(
+                        ".service-top-desc-video"
+                    );
+                    var wrap = document.querySelector(".service-top-wrap");
+
+                    desc.style.display = "block";
+                    wrap.style.display = "flex"; // Thay 'none' bằng 'flex'
+                    wrap.style.alignItems = "center"; // Thêm dòng này
+                    wrap.style.justifyContent = "center"; // Thêm dòng này
+                    this.load(); // Dừng video
+                });
+        </script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script>
+            new WOW().init({
+                animateClass: "animate__animated",
+            });
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
